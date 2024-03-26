@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Arquivos de Origem">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Cabeçalho">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Recurso">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Arquivos de Origem\cenas">
+      <UniqueIdentifier>{e7e6e7ce-8744-4ce6-8781-9462d05d0c9c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ORIGEM.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="COMANDOS.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="RENDERIZACAO.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="TEXTURASEFONTEEAUDIO.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="INICIALIZACAOTERMOS.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="DESALOCACAOTEXTURAS.c">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="cena0.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena1.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena2.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena3.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena4.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena5.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena6.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena7.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena8.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena9.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena10.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena11.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena12.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena13.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena14.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena15.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena16.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena17.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena18.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena19.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena20.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena21.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena22.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena23.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena24.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena25.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena26.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena27.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena28.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena29.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena30.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena31.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena32.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenasuspiro.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenagato.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena33.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena34.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena35.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena36.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="FISICAS.C">
+      <Filter>Arquivos de Origem</Filter>
+    </ClCompile>
+    <ClCompile Include="cena37.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaprenucleo.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaprenucleo2.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaprenucleo3.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaprenucleo4.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaprenucleo5.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaprenucleo6.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaposnucleo.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaposnucleo2.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaposnucleo3.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaposnucleo4.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaposnucleo5.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cenaposnucleo6.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena38.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena39.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena40.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena41.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena42.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena43.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena44.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena45.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena46.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena47.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena48.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena49.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena50.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena51.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena52.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena53.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena54.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena55.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+    <ClCompile Include="cena56.c">
+      <Filter>Arquivos de Origem\cenas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ORIGEM2.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+    <ClInclude Include="STATUSCENAS.h">
+      <Filter>Arquivos de Cabeçalho</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

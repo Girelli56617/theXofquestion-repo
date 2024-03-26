@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{46356158-eff8-447b-a590-647ca56d51ce}</ProjectGuid>
+    <RootNamespace>Sdl</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\SDL2_mixer\include;C:\SDL2_ttf\SDL2_ttf-2.20.1\include;C:\SDL_Image\SDL2_image-2.6.2\include;C:\SDL\SDL2-2.26.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SDL2_mixer\lib\x64;C:\SDL2_ttf\SDL2_ttf-2.20.1\lib\x64;C:\SDL\SDL2-2.26.1\lib\x64;C:\SDL_Image\SDL2_image-2.6.2\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="cena1.c" />
+    <ClCompile Include="cena10.c" />
+    <ClCompile Include="cena11.c" />
+    <ClCompile Include="cena12.c" />
+    <ClCompile Include="cena13.c" />
+    <ClCompile Include="cena14.c" />
+    <ClCompile Include="cena15.c" />
+    <ClCompile Include="cena16.c" />
+    <ClCompile Include="cena17.c" />
+    <ClCompile Include="cena18.c" />
+    <ClCompile Include="cena19.c" />
+    <ClCompile Include="cena2.c" />
+    <ClCompile Include="cena20.c" />
+    <ClCompile Include="cena21.c" />
+    <ClCompile Include="cena22.c" />
+    <ClCompile Include="cena23.c" />
+    <ClCompile Include="cena24.c" />
+    <ClCompile Include="cena25.c" />
+    <ClCompile Include="cena26.c" />
+    <ClCompile Include="cena27.c" />
+    <ClCompile Include="cena28.c" />
+    <ClCompile Include="cena29.c" />
+    <ClCompile Include="cena3.c" />
+    <ClCompile Include="cena30.c" />
+    <ClCompile Include="cena31.c" />
+    <ClCompile Include="cena32.c" />
+    <ClCompile Include="cena33.c" />
+    <ClCompile Include="cena34.c" />
+    <ClCompile Include="cena35.c" />
+    <ClCompile Include="cena36.c" />
+    <ClCompile Include="cena37.c" />
+    <ClCompile Include="cena38.c" />
+    <ClCompile Include="cena39.c" />
+    <ClCompile Include="cena4.c" />
+    <ClCompile Include="cena40.c" />
+    <ClCompile Include="cena41.c" />
+    <ClCompile Include="cena42.c" />
+    <ClCompile Include="cena43.c" />
+    <ClCompile Include="cena44.c" />
+    <ClCompile Include="cena45.c" />
+    <ClCompile Include="cena46.c" />
+    <ClCompile Include="cena47.c" />
+    <ClCompile Include="cena48.c" />
+    <ClCompile Include="cena49.c" />
+    <ClCompile Include="cena5.c" />
+    <ClCompile Include="cena50.c" />
+    <ClCompile Include="cena51.c" />
+    <ClCompile Include="cena52.c" />
+    <ClCompile Include="cena53.c" />
+    <ClCompile Include="cena54.c" />
+    <ClCompile Include="cena55.c" />
+    <ClCompile Include="cena56.c" />
+    <ClCompile Include="cena6.c" />
+    <ClCompile Include="cena7.c" />
+    <ClCompile Include="cena8.c" />
+    <ClCompile Include="cena9.c" />
+    <ClCompile Include="cenagato.c" />
+    <ClCompile Include="cenaposnucleo.c" />
+    <ClCompile Include="cenaposnucleo2.c" />
+    <ClCompile Include="cenaposnucleo3.c" />
+    <ClCompile Include="cenaposnucleo4.c" />
+    <ClCompile Include="cenaposnucleo5.c" />
+    <ClCompile Include="cenaposnucleo6.c" />
+    <ClCompile Include="cenaprenucleo4.c" />
+    <ClCompile Include="cenaprenucleo.c" />
+    <ClCompile Include="cenaprenucleo2.c" />
+    <ClCompile Include="cenaprenucleo3.c" />
+    <ClCompile Include="cenaprenucleo5.c" />
+    <ClCompile Include="cenaprenucleo6.c" />
+    <ClCompile Include="cenasuspiro.c" />
+    <ClCompile Include="COMANDOS.c" />
+    <ClCompile Include="DESALOCACAOTEXTURAS.c" />
+    <ClCompile Include="FISICAS.C" />
+    <ClCompile Include="INICIALIZACAOTERMOS.c" />
+    <ClCompile Include="ORIGEM.c" />
+    <ClCompile Include="cena0.c" />
+    <ClCompile Include="RENDERIZACAO.c" />
+    <ClCompile Include="TEXTURASEFONTEEAUDIO.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ORIGEM2.h" />
+    <ClInclude Include="STATUSCENAS.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
